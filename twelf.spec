@@ -5,8 +5,6 @@ Version:	1.3
 Release:	2
 License:	distributable
 Group:		Development/Languages
-Group(de):	Entwicklung/Sprachen
-Group(pl):	Programowanie/Jêzyki
 Source0:	http://www.cs.cmu.edu/~%{name}/dist/%{name}-1-3.tar.gz
 Source1:	http://www.cs.princeton.edu/~appel/twelf-tutorial/proving.tar
 Icon:		twelf-logo.gif
