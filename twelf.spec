@@ -49,7 +49,6 @@ install -d $RPM_BUILD_ROOT{%{_infodir},%{_libdir}/twelf}
 
 install doc/info/* $RPM_BUILD_ROOT%{_infodir}
 cp -rf bin emacs tex $RPM_BUILD_ROOT%{_libdir}/twelf
-gzip -9nf README
 
 cat > $RPM_BUILD_ROOT%{_libdir}/twelf/bin/twelf-server <<EOF
 #!/bin/sh
@@ -65,7 +64,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README.gz examples examples-clp proving
+%doc README examples examples-clp proving
 %dir %{_libdir}/twelf
 %dir %{_libdir}/twelf/bin
 %dir %{_libdir}/twelf/bin/.heap
