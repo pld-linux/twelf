@@ -52,7 +52,7 @@ cp -rf bin emacs tex $RPM_BUILD_ROOT%{_libdir}/twelf
 gzip -9nf README
 
 cat > $RPM_BUILD_ROOT%{_libdir}/twelf/bin/twelf-server <<EOF
-#!/bin/sh 
+#!/bin/sh
 /usr/bin/sml-cm \
 	@SMLload="%{_libdir}/twelf/bin/.heap/twelf-server" \
 	@SMLdebug=/dev/null
