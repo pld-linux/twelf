@@ -9,7 +9,6 @@ Source0:	http://www.cs.cmu.edu/~%{name}/dist/%{name}-1-3.tar.gz
 # Source0-md5:	90ebfc2dc755d0cec03cccb49c13cdee
 Source1:	http://www.cs.princeton.edu/~appel/twelf-tutorial/proving.tar
 # Source1-md5:	4c6abab8cd5c9c787c6af8ba4ae81aae
-Icon:		twelf-logo.gif
 URL:		http://www.cs.cmu.edu/~twelf/
 Requires:	smlnj >= 110.0.7
 BuildRequires:	smlnj >= 110.0.7
