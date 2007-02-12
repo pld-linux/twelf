@@ -1,5 +1,5 @@
 Summary:	meta-theorem proover for LF
-Summary(pl.UTF-8):   Narzędzie do dowodzenia metateorii dla LF
+Summary(pl.UTF-8):	Narzędzie do dowodzenia metateorii dla LF
 Name:		twelf
 Version:	1.3
 Release:	2
