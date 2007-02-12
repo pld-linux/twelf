@@ -1,5 +1,5 @@
 Summary:	meta-theorem proover for LF
-Summary(pl):	Narzêdzie do dowodzenia metateorii dla LF
+Summary(pl.UTF-8):   NarzÄ™dzie do dowodzenia metateorii dla LF
 Name:		twelf
 Version:	1.3
 Release:	2
@@ -26,16 +26,16 @@ is available from Frank Pfenning <fp@cs.cmu.edu>. Twelf is written in
 Standard ML and uses an inference engine based on explicit
 substitutions. Twelf has been developed at Carnegie Mellon University.
 
-%description -l pl
+%description -l pl.UTF-8
 Twelf to implementacja:
- - szkieletu logicznego LF, wraz z rekonstrukcj± typów
- - jêzyka programowania logiki Elf
- - dowodzenia meta-teorii dla LF (wstêpne)
+ - szkieletu logicznego LF, wraz z rekonstrukcjÄ… typÃ³w
+ - jÄ™zyka programowania logiki Elf
+ - dowodzenia meta-teorii dla LF (wstÄ™pne)
  - interfejsu do Emacsa.
 
-Ziera tak¿e podrêcznik u¿ytkownika i przyk³ady; wprowadzenie jest
-dostêpne od Franka Pfenninga <fp@cs.cmu.edu>. Twelf jest napisany w
-jêzyku Standard ML. Zosta³ stworzony w Carnegie Mellon University.
+Ziera takÅ¼e podrÄ™cznik uÅ¼ytkownika i przykÅ‚ady; wprowadzenie jest
+dostÄ™pne od Franka Pfenninga <fp@cs.cmu.edu>. Twelf jest napisany w
+jÄ™zyku Standard ML. ZostaÅ‚ stworzony w Carnegie Mellon University.
 
 %prep
 %setup -q -n twelf-1-3
