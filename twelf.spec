@@ -74,4 +74,4 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_libdir}/twelf/bin/twelf-server
 %{_libdir}/twelf/emacs
 %{_libdir}/twelf/tex
-%{_infodir}/*
+%{_infodir}/*.info*
